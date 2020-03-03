@@ -13,10 +13,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class MinWebTest {
 	@Test public void t0() {
 		// execute the test <x = 0, y = 0, z = 0, submitButton = click> and check the output message is correct
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:/Users/Frank/Documents/GitHub/tut6p2/geckodriver.exe");
 		WebDriver wd = new FirefoxDriver(); // launch the browser
 		// edit the next line to enter the location of "min.html" on your file system
-		wd.get("file:///C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\min.html");
+		wd.get("file:///C:/Users/Frank/Documents/GitHub/tut6p2/min.html");
 		WebElement we = wd.findElement(By.id("x"));
 		we.sendKeys("0"); // enter a representative for x
 		we = wd.findElement(By.id("y"));
@@ -33,10 +33,10 @@ public class MinWebTest {
 	
 	@Test public void t1() {
 		// execute the test <x = 0, y = 0, z = 1, submitButton = click> and check the output message is correct
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:/Users/Frank/Documents/GitHub/tut6p2/geckodriver.exe");
 		WebDriver wd = new FirefoxDriver(); // launch the browser
 		// edit the next line to enter the location of "min.html" on your file system
-		wd.get("file:///C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\min.html");
+		wd.get("file:///C:/Users/Frank/Documents/GitHub/tut6p2/min.html");
 		WebElement we = wd.findElement(By.id("x"));
 		we.sendKeys("0"); // enter a representative for x
 		we = wd.findElement(By.id("y"));
@@ -53,10 +53,10 @@ public class MinWebTest {
 	
 	@Test public void t2() {
 		// execute the test <x = -1, y = 1, z = 1, submitButton = don't click> and check the output message is correct
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:/Users/Frank/Documents/GitHub/tut6p2/geckodriver.exe");
 		WebDriver wd = new FirefoxDriver(); // launch the browser
 		// edit the next line to enter the location of "min.html" on your file system
-		wd.get("file:///C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\min.html");
+		wd.get("file:///C:/Users/Frank/Documents/GitHub/tut6p2/min.html");
 		WebElement we = wd.findElement(By.id("x"));
 		we.sendKeys("-1"); // enter a representative for x
 		we = wd.findElement(By.id("y"));
@@ -72,10 +72,10 @@ public class MinWebTest {
 	
 	@Test public void t3() {
 		// execute the test <x = 1, y = 1, z = -1, submitButton = click> and check the output message is correct
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:/Users/Frank/Documents/GitHub/tut6p2/geckodriver.exe");
 		WebDriver wd = new FirefoxDriver(); // launch the browser
 		// edit the next line to enter the location of "min.html" on your file system
-		wd.get("file:///C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\min.html");
+		wd.get("file:///C:/Users/Frank/Documents/GitHub/tut6p2/min.html");
 		WebElement we = wd.findElement(By.id("x"));
 		we.sendKeys("1"); // enter a representative for x
 		we = wd.findElement(By.id("y"));
@@ -92,10 +92,10 @@ public class MinWebTest {
 	
 	@Test public void t4() {
 		// execute the test <x = 1, y = 0, z = -1, submitButton = don't click> and check the output message is correct
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:/Users/Frank/Documents/GitHub/tut6p2/geckodriver.exe");
 		WebDriver wd = new FirefoxDriver(); // launch the browser
 		// edit the next line to enter the location of "min.html" on your file system
-		wd.get("file:///C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\min.html");
+		wd.get("file:///C:/Users/Frank/Documents/GitHub/tut6p2/min.html");
 		WebElement we = wd.findElement(By.id("x"));
 		we.sendKeys("1"); // enter a representative for x
 		we = wd.findElement(By.id("y"));
@@ -111,10 +111,10 @@ public class MinWebTest {
 	
 	@Test public void t5() {
 		// execute the test <x = 0, y = -1, z = -1, submitButton = click> and check the output message is correct
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:/Users/Frank/Documents/GitHub/tut6p2/geckodriver.exe");
 		WebDriver wd = new FirefoxDriver(); // launch the browser
 		// edit the next line to enter the location of "min.html" on your file system
-		wd.get("file:///C:\\Users\\Frank\\Documents\\GitHub\\tut6p2\\min.html");
+		wd.get("file:///C:/Users/Frank/Documents/GitHub/tut6p2/min.html");
 		WebElement we = wd.findElement(By.id("x"));
 		we.sendKeys("0"); // enter a representative for x
 		we = wd.findElement(By.id("y"));
